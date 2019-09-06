@@ -13,6 +13,13 @@ body{
     width: 7rem;
     height: 7rem;
 }
+#title-header{
+    font-size: 1rem;
+    background: #1B998B;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
 td{
     border : 4.5px solid rgb(90, 131, 167);
     height : 10rem; 
