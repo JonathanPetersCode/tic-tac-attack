@@ -1,0 +1,121 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background: white;
+}
+.main-wrapper{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
+.logo-img{
+    width: 7rem;
+    height: 7rem;
+}
+td{
+    border : 4.5px solid rgb(90, 131, 167);
+    height : 10rem; 
+    width : 10rem; 
+    text-align : center;
+    vertical-align : middle;
+    font-size: 4rem;
+    cursor : pointer;
+}
+table {
+    margin-top: 5rem;
+}
+table tr:first-child td {
+    border-top: 0;
+}
+table tr:last-child td {
+    border-bottom: 0;
+}
+table tr td:first-child {
+    border-left: 0;
+}
+table tr td:last-child {
+    border-right: 0;
+}
+.table-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+.replay-btn,
+.hu-score-wrap,
+.ai-score-wrap,
+.endgame {
+    display: flex;
+    border-radius: 5px;
+    padding: .7rem;
+    font-size: .8rem;
+    color: rgb(51, 52, 47);
+    background: whitesmoke;
+    border: solid rgb(165, 156, 161) 1.5px;
+    margin: .3rem;
+    box-shadow: 0 2px 0 0 rgb(165, 156, 161);
+}
+.replay-btn:hover{
+    background: rgb(90, 131, 167);
+    opacity: .8;
+    color: white;
+}
+
+.hu-score-wrap {
+    background: whitesmoke;
+    color: #1B998B;
+    text-align: center;
+}
+.ai-score-wrap {
+    background: whitesmoke;
+    color: #D7263D;
+}
+.replay-btn h1{
+    font-size: 1.5rem;
+}
+.info-wrapper{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+    text-align: center;
+}
+.endgame{
+    background-color : rgb(255, 210, 255);
+    padding: .6rem;
+    font-size: 1em;
+}
+.game-footer{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+.game-footer h1{
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+    color: rgb(90, 131, 167);
+}
+
+@media only screen and (max-width: 900px) {
+    .main-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    td{
+        height : 5rem;
+        width : 5rem;
+    }
+    .replay-btn,
+    .hu-score-wrap,
+    .ai-score-wrap,
+    .endgame{
+        font-size: .5rem;
+        padding: .2rem 5rem;
+    }
+    .replay-btn h1 {
+        font-size: 1.0rem;
+    }
+}
+

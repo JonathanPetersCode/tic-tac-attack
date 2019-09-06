@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe Showdown</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="main-wrapper animated fadeIn 2sec">
+    <img class="logo-img animated slideInDown" src="https://www.dropbox.com/s/y1z742nth3f0wtd/control-concepts-logo.jpg?raw=1" alt="logo">
+        <table class="table-wrapper">
+            <!-- Table used to represnt the Tic tac toe board.  -->
+            <tr>
+                <!-- Represents each row on board -->
+                <td class="cell" id="0"></td>
+                <!-- Represents each cell in row, on board -->
+                <td class="cell" id="1"></td>
+                <td class="cell" id="2"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="3"></td>
+                <td class="cell" id="4"></td>
+                <td class="cell" id="5"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="6"></td>
+                <td class="cell" id="7"></td>
+                <td class="cell" id="8"></td>
+            </tr>
+        </table>
+<div class="info-wrapper animated slideInUp">
+    <div class="endgame animated pulse">
+            <!-- End of game message -->
+            <h1 class="text"></h1>
+    </div>
+    <div class="hu-score-wrap">
+        <h1>Your Score: &nbsp&nbsp</h1>
+        <h1 class="human-Score"></h1>
+    </div>
+    <div class="ai-score-wrap">
+        <h1>Computer Score: &nbsp&nbsp</h1>
+        <h1 class="ai-Score"></h1>
+    </div>
+    <button class="replay-btn animated pulse" onClick="startGame()">
+        <h1>Replay Game</h1></button>
+        </div>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+<footer class="game-footer animated fadeIn">
+    <h1>Human Player (O) <h1>
+    <h1> Computer Player (X) </h1>
+</footer>
+</html>
