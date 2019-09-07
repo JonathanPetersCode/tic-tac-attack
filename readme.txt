@@ -6,7 +6,7 @@ Powered by the Minimax algorithm, the computer will make intelligent moves based
 
 Implemented a session and scoring system - using LocalStorage in JavaScript, that tracks the points awarded to either the player or the computer and allows the user to restart the game,while maintaining the score.
 
-Added animations for score, game winning message, and replay button using animate.JS JavaScript library. 
+Added animations for score, game winning message, and reset button using animate.JS JavaScript library. 
 
 Built using HTML/CSS/JS and animate.JS 
 

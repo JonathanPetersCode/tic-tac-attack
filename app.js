@@ -65,7 +65,7 @@ function gameOver(gameWon) {
         window.localStorage.setItem('computerScore', computerScore.toString())
         //Highlight cell of the winning combination, changing BG color for the winning player 
         document.getElementById(index).style.backgroundColor = gameWon.player == humanPlayer ? "#1B998B" : "#D7263D";
-        document.querySelector(".replay-btn").classList.add("animated", "shake")
+        document.querySelector(".reset-btn").classList.add("animated", "shake")
     }
     for (var i = 0; i < boardCells.length; i++){
         boardCells[i].removeEventListener("click", turnClick, false)
