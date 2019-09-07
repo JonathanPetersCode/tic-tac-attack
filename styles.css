@@ -1,8 +1,8 @@
 *{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 body{
-    background: white;
+    background: rgb(206, 203, 203);
 }
 .main-wrapper{
     display: flex;
@@ -16,12 +16,17 @@ body{
 #title-header{
     font-size: 1rem;
     background: #1B998B;
+    border-radius: 5px;
     color: whitesmoke;
     display: flex;
     justify-content: center;
+    border: solid rgb(165, 156, 161) 1.5px;
+    margin: .3rem;
+    box-shadow: 0 2px 0 0 rgb(165, 156, 161);
 }
 td{
     border : 4.5px solid rgb(90, 131, 167);
+    border-radius: 5px;
     height : 10rem; 
     width : 10rem; 
     text-align : center;
@@ -30,9 +35,11 @@ td{
     cursor : pointer;
 }
 table {
+    border-radius: 5px;
     margin-top: 5rem;
 }
 table tr:first-child td {
+    border-radius: 5px;
     border-top: 0;
 }
 table tr:last-child td {
@@ -68,7 +75,6 @@ table tr td:last-child {
     opacity: .8;
     color: white;
 }
-
 .hu-score-wrap {
     background: whitesmoke;
     color: #1B998B;
@@ -94,17 +100,23 @@ table tr td:last-child {
     font-size: 1em;
 }
 .game-footer{
+    background: whitesmoke;
+    border-radius: 5px;
+    padding: .5rem;
     margin-top: 1rem;
     display: flex;
     justify-content: space-around;
+    border: solid rgb(165, 156, 161) 1.5px;
+    margin: .3rem;
+    box-shadow: 0 2px 0 0 rgb(165, 156, 161);
 }
 .game-footer h1{
     font-size: 1rem;
     padding: 0;
     margin: 0;
     color: rgb(90, 131, 167);
+    
 }
-
 @media only screen and (max-width: 900px) {
     .main-wrapper {
         flex-direction: column;
