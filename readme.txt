@@ -1,5 +1,8 @@
 Tic-Tac-Attack
 
+<img width="486" alt="Screen Shot 2019-09-07 at 7 23 10 PM" src="https://user-images.githubusercontent.com/42306733/64481192-f5c9de00-d1a4-11e9-837e-c8424d3b9a49.png">
+
+
 A tic-tac-toe game using the Minimax AI algorithm, featuring a score tracker and minimalistic design. 
 
 Powered by the Minimax algorithm, the computer will make intelligent moves based on where on the board you play.
